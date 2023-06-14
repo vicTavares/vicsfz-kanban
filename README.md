@@ -1,5 +1,9 @@
 # vicsfz-kanban MarkDown File details
-<h1> KANBAN - Projeto Treinamento em React </h1>
+
+![kanban](https://github.com/vicTavares/vicsfz-kanban/assets/36772069/9065a390-1a4b-46cc-a230-b75c780e0c9c)
+
+<h4> KANBAN - Projeto Treinamento em React </h4>
+
 > Status - Em desenvolvimento
 
 
