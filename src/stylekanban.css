@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration-color: blue;
+  text-shadow: brown;
+  box-sizing: border-box;
+  font-family: "poppins";
+  font-size: 30px;
+}
+
+.kanban {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgb(55, 97, 99);
+  min-width: 200px;
+  border-radius: 5px;
+}
+
+.item {
+  background-color: rgb(199, 130, 130);
+  padding: 0px;
+  border-radius: 5px;
+  text-decoration: blue;
+}
+
+.subitem {
+  background-color: rgb(142, 75, 75);
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: blue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: rgb(40, 40, 68);
+  border-style: outset;
+  display: block;
+  gap: 8px;
+  width: 400;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(110, 77, 77);
+  flex-wrap: wrap-reverse;
+
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
