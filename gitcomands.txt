@@ -152,6 +152,22 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 ### Desvincular um repositório remoto
 	git remote rm curso-git
 
+
+### CREATE NEW BRANCH
+	git checkout -b nome-da-branch
+	
+### voltar para uma determinada brench
+	git switch nome-da-branch
+	
+### Envia arquivos para a branch - antes e necessario especificar os arquvivos que serao enviados com git add arquivo.xxxx, ou git add .
+	git push origin <nome_da_branch>	
+	
+### Envia arquivos de uma branch para a branch main
+	git branch -> visualiza as branches
+	git switch main -> volta para a branch main
+	git merge <nome_da_branch> -> junta os arquivos da branch citada com a os arquivos da branch main - ainda nao foram enviadas so juntadas para serem enviadas
+	git push origin main  -> Envia os arquivos para a main
+	
 ### Enviar arquivos/diretórios para o repositório remoto
 O primeiro **push** de um repositório deve conter o nome do repositório remoto e o branch.
 	git push -u origin master
